@@ -6,7 +6,7 @@ Python client for AWS Elasticache [Auto Discovery Endpoint](http://docs.aws.amaz
 
 ```python
 >>> import elasticache_auto_discovery
->>> print elasticache_auto_discovery.discover('ELASTICACHE_ENDPOINT:11211')
+>>> print elasticache_auto_discovery.discover('$ELASTICACHE_ENDPOINT:11211')
 [['HOSTNAME1', 'IP_ADDR1', 'PORT1'],
  ['HOSTNAME2', 'IP_ADDR2', 'PORT2']]
 ```
