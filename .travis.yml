@@ -11,7 +11,6 @@ before_script:
 # command to run tests
 script:
   - docker ps
-  - ip addr
   - python elasticache_auto_discovery/__init__.py "localhost:11212"
 
 after_script:
